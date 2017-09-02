@@ -24,7 +24,7 @@ void setup(void)
   digitalWrite(button1, LOW);  //Enable the pull-up resistor on button 1
   
   pinMode(button2, INPUT);      //Set the Joystick button 2 as an input
-  digitalWrite(button2, LOW);  //Enable the pull-up resistor on button 2
+  digitalWrite(button2, HIGH);  //Enable the pull-up resistor on button 2
 
   pinMode(button3, INPUT);      //Set the Joystick button 3 as an input
   digitalWrite(button3, LOW);  //Enable the pull-up resistor on button 3
